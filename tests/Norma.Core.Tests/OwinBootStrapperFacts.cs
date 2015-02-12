@@ -24,7 +24,8 @@ namespace Norma.Core.Tests
         public void UseNorma_ThrowsInvalidOperationException_WhenStorageIsNotConfigured()
         {
             var mockBuilder = new Mock<IAppBuilder>();
-            Assert.Throws<InvalidOperationException>(() => mockBuilder.Object.UseNorma(x=>{}));
+            var exception = Assert.Throws<InvalidOperationException>(() => mockBuilder.Object.UseNorma(x=>{}));
+
         }
 
         [Fact, GlobalLock(Reason = "Access static OwinBootstrapper.UseNorma member")]

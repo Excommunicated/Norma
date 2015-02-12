@@ -9,16 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Norma.EF", "src\NORMA.EF\No
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Norma.SqlServer", "src\NORMA.SqlServer\Norma.SqlServer.csproj", "{9D0BA560-A403-4F8B-9264-62BD1FB2E1E8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{2F547804-DA6A-4E4B-89A1-F5A7B958AF31}"
-	ProjectSection(SolutionItems) = preProject
-		.nuget\NuGet.Config = .nuget\NuGet.Config
-		.nuget\NuGet.exe = .nuget\NuGet.exe
-		.nuget\NuGet.targets = .nuget\NuGet.targets
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A49A9E69-516E-4E4D-B4DD-EA964E27B4D8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Norma.Core.Tests", "tests\Norma.Core.Tests\Norma.Core.Tests.csproj", "{09AB9835-A3EC-47B1-BB89-105777AB4F58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Norma.SqlServer.Tests", "tests\Norma.SqlServer.Tests\Norma.SqlServer.Tests.csproj", "{249B86EF-5DB0-4FEC-93DB-A728E4EF577A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -72,11 +67,22 @@ Global
 		{09AB9835-A3EC-47B1-BB89-105777AB4F58}.Release|ARM.ActiveCfg = Release|Any CPU
 		{09AB9835-A3EC-47B1-BB89-105777AB4F58}.Release|x64.ActiveCfg = Release|Any CPU
 		{09AB9835-A3EC-47B1-BB89-105777AB4F58}.Release|x86.ActiveCfg = Release|Any CPU
+		{249B86EF-5DB0-4FEC-93DB-A728E4EF577A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{249B86EF-5DB0-4FEC-93DB-A728E4EF577A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{249B86EF-5DB0-4FEC-93DB-A728E4EF577A}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{249B86EF-5DB0-4FEC-93DB-A728E4EF577A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{249B86EF-5DB0-4FEC-93DB-A728E4EF577A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{249B86EF-5DB0-4FEC-93DB-A728E4EF577A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{249B86EF-5DB0-4FEC-93DB-A728E4EF577A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{249B86EF-5DB0-4FEC-93DB-A728E4EF577A}.Release|ARM.ActiveCfg = Release|Any CPU
+		{249B86EF-5DB0-4FEC-93DB-A728E4EF577A}.Release|x64.ActiveCfg = Release|Any CPU
+		{249B86EF-5DB0-4FEC-93DB-A728E4EF577A}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{09AB9835-A3EC-47B1-BB89-105777AB4F58} = {A49A9E69-516E-4E4D-B4DD-EA964E27B4D8}
+		{249B86EF-5DB0-4FEC-93DB-A728E4EF577A} = {A49A9E69-516E-4E4D-B4DD-EA964E27B4D8}
 	EndGlobalSection
 EndGlobal

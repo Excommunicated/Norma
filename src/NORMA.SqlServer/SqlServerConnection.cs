@@ -11,6 +11,7 @@ namespace Norma.SqlServer
 {
     public class SqlServerConnection : IStorageConnection
     {
+        public SqlConnection Connection { get { return _connection; } }
         public bool OwnsConnection { get; private set; }
         private readonly SqlConnection _connection;
 
